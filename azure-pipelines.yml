@@ -47,7 +47,6 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-    codeCoverageEnabled: true
     runInParallel: true
 
 - task: Windows Application Driver@0
