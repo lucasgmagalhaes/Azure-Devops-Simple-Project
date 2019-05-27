@@ -81,6 +81,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy /y $(TargetPath) ..\..\..\..\DemoUI\DemoUI.Teste\$(OutDir)</PostBuildEvent>
+    <PostBuildEvent>xcopy /y $(TargetPath) ..\..\..\..\..\DemoUI\DemoUI.Teste\$(OutDir)</PostBuildEvent>
   </PropertyGroup>
 </Project>
