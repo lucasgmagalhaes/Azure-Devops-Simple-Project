@@ -1,0 +1,11 @@
+E:\Git\Demo\DemoUI\DemoUI.Componente\bin\Debug\DemoUI.Componente.dll
+E:\Git\Demo\DemoUI\DemoUI.Componente\bin\Debug\DemoUI.Componente.pdb
+E:\Git\Demo\DemoUI\DemoUI.Componente\bin\Debug\Castle.Core.dll
+E:\Git\Demo\DemoUI\DemoUI.Componente\bin\Debug\TestStack.White.dll
+E:\Git\Demo\DemoUI\DemoUI.Componente\bin\Debug\Castle.Core.xml
+E:\Git\Demo\DemoUI\DemoUI.Componente\bin\Debug\TestStack.White.pdb
+E:\Git\Demo\DemoUI\DemoUI.Componente\bin\Debug\TestStack.White.xml
+E:\Git\Demo\DemoUI\DemoUI.Componente\obj\Debug\DemoUI.Componente.csproj.CoreCompileInputs.cache
+E:\Git\Demo\DemoUI\DemoUI.Componente\obj\Debug\DemoUI.Componente.csproj.CopyComplete
+E:\Git\Demo\DemoUI\DemoUI.Componente\obj\Debug\DemoUI.Componente.dll
+E:\Git\Demo\DemoUI\DemoUI.Componente\obj\Debug\DemoUI.Componente.pdb

@@ -1,0 +1,9 @@
+E:\Git\Demo\demo\demo\bin\Debug\demo.exe.config
+E:\Git\Demo\demo\demo\bin\Debug\demo.exe
+E:\Git\Demo\demo\demo\bin\Debug\demo.pdb
+E:\Git\Demo\demo\demo\obj\Debug\demo.Form1.resources
+E:\Git\Demo\demo\demo\obj\Debug\demo.Properties.Resources.resources
+E:\Git\Demo\demo\demo\obj\Debug\demo.csproj.GenerateResource.cache
+E:\Git\Demo\demo\demo\obj\Debug\demo.csproj.CoreCompileInputs.cache
+E:\Git\Demo\demo\demo\obj\Debug\demo.exe
+E:\Git\Demo\demo\demo\obj\Debug\demo.pdb

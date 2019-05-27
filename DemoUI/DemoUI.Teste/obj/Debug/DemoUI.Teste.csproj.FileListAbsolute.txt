@@ -1,0 +1,17 @@
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\DemoUI.Teste.dll
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\DemoUI.Teste.pdb
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\DemoUI.Componente.dll
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\nunit.framework.dll
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\TestStack.White.dll
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\Castle.Core.dll
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\DemoUI.Componente.pdb
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\nunit.framework.pdb
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\nunit.framework.xml
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\TestStack.White.pdb
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\TestStack.White.xml
+E:\Git\Demo\DemoUI\DemoUI.Teste\bin\Debug\Castle.Core.xml
+E:\Git\Demo\DemoUI\DemoUI.Teste\obj\Debug\DemoUI.Teste.csprojAssemblyReference.cache
+E:\Git\Demo\DemoUI\DemoUI.Teste\obj\Debug\DemoUI.Teste.csproj.CoreCompileInputs.cache
+E:\Git\Demo\DemoUI\DemoUI.Teste\obj\Debug\DemoUI.Teste.csproj.CopyComplete
+E:\Git\Demo\DemoUI\DemoUI.Teste\obj\Debug\DemoUI.Teste.dll
+E:\Git\Demo\DemoUI\DemoUI.Teste\obj\Debug\DemoUI.Teste.pdb
