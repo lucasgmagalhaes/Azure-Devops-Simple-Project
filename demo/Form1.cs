@@ -17,6 +17,11 @@ namespace demo
             InitializeComponent();
         }
 
+        public int CalcularSomar(int numero1, int numero2)
+        {
+            return numero1 + numero2;
+        }
+
         private void btnsomar_Click(object sender, EventArgs e)
         {
             int numero1;
@@ -24,7 +29,7 @@ namespace demo
 
             if (int.TryParse(txtn1.Text, out numero1) && int.TryParse(txtn2.Text, out numero2))
             {
-                txtresultado.Text = (numero1 + numero2).ToString();
+                txtresultado.Text = CalcularSomar(numero1, numero2).ToString();
             }
             else
             {
