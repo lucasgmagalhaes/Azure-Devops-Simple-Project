@@ -16,7 +16,15 @@ namespace DemoUI.Teste
         [OneTimeSetUp]
         public static void Setup()
         {
-            WhiteUtils.Iniciar(@"demo.exe");
+            try
+            {
+                WhiteUtils.Iniciar(@"demo.exe");
+            }
+            catch (Exception e)
+            {
+                throw new Exception("O exe não foi encontrado. " + e.Message);
+            }
+
         }
 
         [OneTimeTearDown]
