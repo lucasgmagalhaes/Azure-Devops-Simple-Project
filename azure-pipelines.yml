@@ -57,7 +57,6 @@ steps:
       !**\obj\**'
     searchFolder: '$(System.DefaultWorkingDirectory)'
     runOnlyImpactedTests: false
-    vsTestVersion: '15.0'
     runInParallel: true
     codeCoverageEnabled: true
     diagnosticsEnabled: true
