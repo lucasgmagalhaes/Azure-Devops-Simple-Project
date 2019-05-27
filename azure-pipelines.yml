@@ -11,7 +11,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-
+  
 steps:
 - task: NuGetToolInstaller@0
 
@@ -52,10 +52,12 @@ steps:
   inputs:
     testSelector: 'testAssemblies'
     testAssemblyVer2: 
-      '**\*test*.dll
+      '**\*DemoUI.Componente.dll
       !**\*TestAdapter.dll
       !**\obj\**'
-    searchFolder: '$(System.DefaultWorkingDirectory)'
+    searchFolder: 
+      '..\$(System.DefaultWorkingDirectory)
+      cd DemoUI'
     runOnlyImpactedTests: false
     vsTestVersion: '15.0'
     runInParallel: true
