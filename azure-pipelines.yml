@@ -55,9 +55,7 @@ steps:
       '**\*DemoUI.Componente.dll
       !**\*TestAdapter.dll
       !**\obj\**'
-    searchFolder: 
-      '..\$(System.DefaultWorkingDirectory)
-      cd DemoUI'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
     runOnlyImpactedTests: false
     vsTestVersion: '15.0'
     runInParallel: true
