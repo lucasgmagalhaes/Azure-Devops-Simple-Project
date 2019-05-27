@@ -16,5 +16,17 @@ namespace demo
         {
             InitializeComponent();
         }
+
+        private void btnsomar_Click(object sender, EventArgs e)
+        {
+            if(int.TryParse(txtn1.Text, out int numero1) && int.TryParse(txtn2.Text, out int numero2))
+            {
+                txtresultado.Text = (numero1 + numero2).ToString();
+            }
+            else
+            {
+                txtresultado.Text = "";
+            }
+        }
     }
 }
