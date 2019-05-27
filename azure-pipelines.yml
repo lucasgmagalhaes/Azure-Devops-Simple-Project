@@ -25,11 +25,6 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-# - task: VSTest@2
-#   inputs:
-#     platform: '$(buildPlatform)'
-#     configuration: '$(buildConfiguration)'
-
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
   inputs:
@@ -50,16 +45,8 @@ steps:
 
 - task: VSTest@2
   inputs:
-    testSelector: 'testAssemblies'
-    testAssemblyVer2: 
-      '**\*DemoUI.Componente.dll
-      !**\*TestAdapter.dll
-      !**\obj\**'
-    searchFolder: '$(System.DefaultWorkingDirectory)'
-    runOnlyImpactedTests: false
-    runInParallel: true
-    codeCoverageEnabled: true
-    diagnosticsEnabled: true
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
 
 - task: Windows Application Driver@0
   inputs:
