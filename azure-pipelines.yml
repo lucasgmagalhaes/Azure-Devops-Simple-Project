@@ -34,11 +34,11 @@ steps:
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(build.sourcesdirectory)'
-    Contents: '**\bin\$(Build.Configuration)\**'
-    TargetFolder: '$(build.artifactstagingdirectory)'
+    Contents: '**\bin\$(buildConfiguration)\**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
     CleanTargetFolder: true
     OverWrite: true
-    
+
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
